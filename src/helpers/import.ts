@@ -12,7 +12,6 @@ export function insertBims2():void {
         const lvBimObject = getRandomEntireBimObject();
 
         bimValues.push(lvBimObject);
-
     }
     BimModel.collection.insert(bimValues);
 
